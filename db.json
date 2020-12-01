@@ -1,0 +1,89 @@
+{
+  "tipoUsuarios": [
+    {
+      "id": 1,
+      "descricao": "Gestor",
+      "permissao": "GL"
+    },
+    {
+      "id": 2,
+      "descricao": "Aluno",
+      "permissao": "L"
+    }
+  ],
+  "tecnologias": [
+    {
+      "id": 1,
+      "nome": "Angular"
+    },
+    {
+      "id": 2,
+      "nome": "React"
+    },
+    {
+      "id": 3,
+      "nome": "Vue"
+    },
+    {
+      "id": 4,
+      "nome": "Angular vs React vs Vue"
+    }
+  ],
+  "tipoConteudos": [
+    {
+      "id": 1,
+      "descricao": "Curso"
+    },
+    {
+      "id": 2,
+      "descricao": "Podcast"
+    },
+    {
+      "id": 3,
+      "descricao": "Post"
+    }
+  ],
+  "prioridades": [
+    {
+      "id": 1,
+      "descricao": "Obrigatório"
+    },
+    {
+      "id": 2,
+      "descricao": "Complementar"
+    }
+  ],
+  "conteudos": [
+    {
+      "id": 1,
+      "conteudo": "Fundamentos de Angular",
+      "url": "https://www.alura.com.br/curso-online-angular-fundamentos",
+      "carga_horaria": 16,
+      "tecnologiaId": 1,
+      "tipoConteudoId": 1,
+      "prioridadeId": 1
+    },
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João Carlos Silva",
+      "nickname": "JCSilva",
+      "tipoUsuarioId": 1,
+      "email": "joao.carlos@compasso.com.br",
+      "emailVerificado": true,
+      "acessoAprovado": true,
+      "senha": "21232f297a57a5a743894a0e4a801fc3"
+    },
+    {
+      "id": 2,
+      "nome": "Matheus Alcantra",
+      "nickname": "theusAlcantra",
+      "tipoUsuarioId": 2,
+      "email": "matheus.alcantra@compasso.com.br",
+      "emailVerificado": false,
+      "acessoAprovado": false,
+      "senha": "21232f297a57a5a743894a0e4a801fc3"
+    },
+  ]
+}
